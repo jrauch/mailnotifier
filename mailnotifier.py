@@ -38,7 +38,7 @@ class IconManipulator:
         return
 
 class MailNotifier(rumps.App):
-    def __init__(self, ml, interval = 30, ic = "u2.png"):
+    def __init__(self, ml, interval = 30, ic = "u3.png"):
         super(MailNotifier, self).__init__("MailNotifier", icon=ic)
         self.MailHelper = MailHelper()
         self.timer = rumps.Timer(self.timerb, 5)
